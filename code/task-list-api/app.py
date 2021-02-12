@@ -4,24 +4,25 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
 
-app = Flask(__name__)
+##########
+# CONFIG #
+##########
+# Will probably move to app/__init__.py
 
-"""
-CONFIG
-
-Will probably move to app/__init__.py
-"""
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get(
-    "SQLALCHEMY_DATABASE_URI")
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-"""
-MODELS
+# Will probably move inside create_app()
+# alongside db/migrate init, importing Task, registering blueprints
+app = Flask(__name__)
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get(
+    "SQLALCHEMY_DATABASE_URI")
 
-Will probably move to app/models.py
-"""
+##########
+# MODELS #
+##########
+# Will probably move to app/models.py
 
 
 class Task(db.Model):
@@ -41,25 +42,23 @@ class Task(db.Model):
         return f'<Task {self.title}>'
 
 
-"""
-MORE CONFIG
+###############
+# MORE CONFIG #
+###############
+# Will probably move to app/__init__.py
 
-Will probably move to app/__init__.py
-"""
 # db.drop_all()
 db.create_all()
 db.session.commit()
 
 
-"""
-ROUTES
-
-Will probably be refactored to use Blueprints
-(which replaces @app.route() decorators with @blueprint_name.route())
-
-Will probably move to app/routes.py
-"""
-
+##########
+# ROUTES #
+##########
+# Will probably be refactored to use Blueprints
+# (which replaces @app.route() decorators with @blueprint_name.route())
+#
+# Will probably move to app/routes.py
 
 @app.route('/')
 def index():
