@@ -336,7 +336,7 @@ Need to review scale, scope, and timing of this project. If there are multiple e
 1. Add a new model, `Tag`
    - `tag_id` (int) (primary key)
    - `label` (string) (required)
-1. Establish a one-to-many relationship between `Task` and `Tag`s
+1. Establish a many-to-many relationship between `Task`s and `Tag`s
 
 Create the following endpoints in this order:
 
