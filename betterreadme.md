@@ -21,9 +21,9 @@
 
 ## Resources
 
-- [Presentation Deck](tinyurl.com/2leyu3ra)
-- [Presentation Repo (this repo!)](github.com/tildeee/adiecon-21-workshop)
 - Our Slack channel: #workshop-python-and-flask
+- [Presentation Deck](tinyurl.com/a9erxubk)
+- [Presentation Repo (this repo!)](github.com/tildeee/adiecon-21-workshop)
 
 ## Python Installation and Python 3
 
@@ -115,12 +115,14 @@ Virtual environments in Python:
 
 - Are one of many ways to manage dependencies. Virtual environments with `venv` are common.
 - When activated, if the virtual environment was made with Python 3, then
+
   - the `$ python` command will default to using Python 3
   - the `$ pytest` command will default to using Python 3
   - `$ pip` will default to using Python 3
   - Virtual environments are great **while they're activated**
 
 - We'll instruct students to name their virtual environments `venv`
+
   - Activate this with `$ source venv/bin/activate`
   - Deactivate with `$ deactivate`
   - You'll know it's activated if you see `(venv)` in the command prompt
