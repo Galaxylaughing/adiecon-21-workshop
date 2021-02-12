@@ -5,12 +5,10 @@ app = Flask(__name__)
 
 
 # The @ line above a function signature is a Python decorator. Follow this syntax to make an endpoint.
-
-
 @app.route('/api/hello', methods=['GET'])
 def hello_world_tacocat():
     # Return our response
-    return "Hello, asdsfsWorld!"
+    return "Hello, World!"
 
 
 @app.route('/api/hello-json', methods=['GET'])

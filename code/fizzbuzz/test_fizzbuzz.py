@@ -29,7 +29,7 @@ def test_fizzbuzz_buzz_on_5s():
     fb = Fizzbuzz()
 
     for mult_of_5 in [5, 10, 20, 100]:
-        assert fb.do_the_thing(5) == "Buzz"
+        assert fb.do_the_thing(mult_of_5) == "Buzz"
 
 def test_fizzbuzz_fizzbuzzes():
     fb = Fizzbuzz()
@@ -37,7 +37,7 @@ def test_fizzbuzz_fizzbuzzes():
     # Ranges aren't formally taught in the new curriculum
     # but are required individual research
     for mult_of_15 in range(0, 15 * 6, 15):
-        assert fb.do_the_thing(15) == "Fizzbuzz"
+        assert fb.do_the_thing(mult_of_15) == "Fizzbuzz"
 
 def test_non_multiples_are_num():
     fb = Fizzbuzz()
