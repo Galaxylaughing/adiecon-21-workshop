@@ -46,24 +46,3 @@
 ![Screenshot of Learn: Student progress view](assets/learn_preview_8_progress.png)
 
 ![Screenshot of Learn: Student progress view with question details expanded](assets/learn_preview_9_progress_expanded.png)
-
-## Projects
-
-- Students will be assigned projects through Learn
-- Each project will have a project overview with due dates, submission details, etc.
-
-![Screenshot of Learn: Project overview page](assets/project_overview.png)
-
-- Students will submit their project in two ways:
-  1. Utilizing the autograding feature by submitting their project repo
-  1. Giving us the ability to do code review by submitting a PR
-
-![Screenshot of Learn: Project submission for autograding](assets/project_submit_autograde.png)
-
-![Screenshot of Learn: Project submission for code review](assets/project_submit_pr.png)
-
-- Project details will still live in project repos on GitHub
-
-![Screenshot of Project README](assets/project_readme.png)
-
-![Screenshot of Project README with focus on README details](assets/project_readme_details.png)
