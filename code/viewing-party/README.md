@@ -1,5 +1,7 @@
 # Viewing Party
 
+![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](assets/uc.gif)
+
 ## Skills Assessed
 
 Solving problems with...
@@ -318,3 +320,5 @@ Create a function named `get_new_rec_by_genre`
   - The movie is in the user's `"favorites"`
   - None of the user's friends have watched it
 - Return the list of recommended movies
+
+![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](assets/uc.gif)
