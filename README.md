@@ -21,9 +21,9 @@
 
 ## Resources
 
-- [Presentation Deck](tinyurl.com/2leyu3ra)
-- [Presentation Repo (this repo!)](github.com/tildeee/adiecon-21-workshop)
 - Our Slack channel: #workshop-python-and-flask
+- [Presentation Deck](tinyurl.com/a9erxubk)
+- [Presentation Repo (this repo!)](github.com/tildeee/adiecon-21-workshop)
 
 ## Python Installation and Python 3
 
@@ -55,7 +55,7 @@ Read more in [Simon's Ruby to Python Guide](simons_ruby_to_python_guide.md).
 
 Make a file named `fizzbuzz.py` and run it with `$ python3 fizzbuzz.py`.
 
-Grab the solution code in [code/fizzbuzz.py](code/fizzbuzz.py).
+Grab the solution code in [code/fizzbuzz/fizzbuzz.py](code/fizzbuzz/fizzbuzz.py).
 
 ## OOP in Python: `self`
 
@@ -65,7 +65,7 @@ Grab the solution code in [code/fizzbuzz.py](code/fizzbuzz.py).
 
 Replace `fizzbuzz.py` with a `Fizzbuzz` class.
 
-Grab the solution code in [code/oop_fizzbuzz.py](code/oop_fizzbuzz.py)
+Grab the solution code in [code/fizzbuzz/oop_fizzbuzz.py](code/fizzbuzz/oop_fizzbuzz.py)
 
 ## Testing in Python: pytest
 
@@ -80,7 +80,24 @@ Grab the solution code in [code/oop_fizzbuzz.py](code/oop_fizzbuzz.py)
 
 Add unit tests right below the `Fizzbuzz` class in `fizzbuzz.py`.
 
-Grab the solution code in [code/test_fizzbuzz.py](code/test_fizzbuzz.py).
+Grab the solution code in [code/fizzbuzz/test_fizzbuzz.py](code/fizzbuzz/test_fizzbuzz.py).
+
+## Project: Viewing Party
+
+![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](assets/uc.gif)
+
+Included is:
+
+- Current in-progress version of README
+- Unit tests (project is TDD with 5 waves)
+- Empty `viewing_party/main.py` file
+- A solution in `soln/main.py`. Copy and paste content into other `main.py` to see.
+
+From root directory, run the tests with
+
+```bash
+$ python3 -m pytest code/viewing-party/
+```
 
 ## Preview of Learn
 
@@ -98,12 +115,14 @@ Virtual environments in Python:
 
 - Are one of many ways to manage dependencies. Virtual environments with `venv` are common.
 - When activated, if the virtual environment was made with Python 3, then
+
   - the `$ python` command will default to using Python 3
   - the `$ pytest` command will default to using Python 3
   - `$ pip` will default to using Python 3
   - Virtual environments are great **while they're activated**
 
 - We'll instruct students to name their virtual environments `venv`
+
   - Activate this with `$ source venv/bin/activate`
   - Deactivate with `$ deactivate`
   - You'll know it's activated if you see `(venv)` in the command prompt
@@ -140,7 +159,7 @@ Install Flask in an activated virtual environment with `$ pip install flask`
 
 Flask defaults to looking for the file `app.py`.
 
-Grab the solution code in [code/flask_example.py](code/flask_example.py) and put it in `app.py`.
+Grab the solution code in [code/flask-hello-world/app.py](code/flask-hello-world/app.py) and put it in `app.py`.
 
 Run the server with either command:
 
@@ -150,6 +169,19 @@ $ FLASK_ENV=development flask run # Development env enables hot-reloading on cod
 ```
 
 Make an endpoint for a `GET` at `/adiecon` and make it return `{ “adieCon”: True, “success”: True }`.
+
+## Project: Task List API
+
+![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](assets/uc.gif)
+
+Included is:
+
+- Current in-progress version of README
+- A minimal version of this project in one file, `code/task-list-api/app.py`
+
+**This project has a lot of dependencies**.
+
+Because there are a lot of dependencies, it's worth using a virtual environment here. Copy the `task-list-api` folder over into a new project directory, or `cd` in here.
 
 ## Conclusion
 
