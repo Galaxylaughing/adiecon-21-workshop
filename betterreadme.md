@@ -84,14 +84,14 @@ Grab the solution code in [code/fizzbuzz/test_fizzbuzz.py](code/fizzbuzz/test_fi
 
 ## Project: Viewing Party
 
+![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](assets/uc.gif)
+
 Included is:
 
 - Current in-progress version of README
 - Unit tests (project is TDD with 5 waves)
 - Empty `viewing_party/main.py` file
 - A solution in `soln/main.py`. Copy and paste content into other `main.py` to see.
-
-# This project is a work in progress
 
 From root directory, run the tests with
 
@@ -170,12 +170,12 @@ Make an endpoint for a `GET` at `/adiecon` and make it return `{ “adieCon”: 
 
 ## Project: Task List API
 
+![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](assets/uc.gif)
+
 Included is:
 
 - Current in-progress version of README
 - A minimal version of this project in one file, `code/task-list-api/app.py`
-
-# This project is a work in progress
 
 **This project has a lot of dependencies**.
 

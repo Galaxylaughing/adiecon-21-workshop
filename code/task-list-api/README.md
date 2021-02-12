@@ -10,7 +10,7 @@ Solving problems with...
 
 You're very motivated to make a list of tasks.
 
-![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](../../assets/uc.gif)
+![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](/assets/uc.gif)
 
 Tasks have:
 
@@ -79,7 +79,7 @@ Summary of one-time project setup:
 
 ## TODO: More Project Setup
 
-![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](../../assets/uc.gif)
+![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](/assets/uc.gif)
 
 - [ ] Make an `.env` file with this content:
 
@@ -101,7 +101,7 @@ SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://postgres:postgres@localhost:5432/t
 $ source venv/bin/activate
 ```
 
-![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](../../assets/uc.gif)
+![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](/assets/uc.gif)
 
 11. When you are finished working for the day, deactivate your environment with deactivate or closing the Terminal tab/window
 
@@ -115,7 +115,7 @@ The goal of this project is to write code so that as many of the tests pass as p
 
 To complete this project, use the above workflow and follow these steps:
 
-![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](../../assets/uc.gif)
+![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](/assets/uc.gif)
 
 1. Repeat on all test files until submission time.
 
@@ -123,7 +123,7 @@ At submission time, no matter where you are, submit the project via Learn.
 
 ### Reminders on Sending Things in Postman
 
-![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](../../assets/uc.gif)
+![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](/assets/uc.gif)
 
 - No query params
 - Go to Body, Raw, select "JSON" in dropdown next to it
@@ -141,7 +141,7 @@ At submission time, no matter where you are, submit the project via Learn.
 
 ## Project Directions
 
-![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](../../assets/uc.gif)
+![Image of Pikachu (the Pokemon) with a hard hat and two orange construction site cones](/assets/uc.gif)
 
 Major sections:
 
